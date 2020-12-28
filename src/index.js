@@ -11,3 +11,4 @@ const AppWithRouter = () => (
 );
 
 ReactDOM.render(<AppWithRouter />, document.getElementById("root"));
+

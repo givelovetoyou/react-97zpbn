@@ -15,17 +15,22 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function FullWidthGrid() {
+const SearchBox = props => {
   const classes = useStyles();
+  const id = props.match.params.id;
 
   return (
-    <SearchBar
-      style={{
-        margin: "15% auto",
-        width: 50 + "%",
-        minWidth: 330,
-        maxWidth: 800
-      }}
-    />
+    <div>
+      <h1>{id}</h1>
+      <SearchBar
+        style={{
+          margin: "15% auto",
+          width: 50 + "%",
+          minWidth: 330,
+          maxWidth: 800
+        }}
+      />
+    </div>
   );
-}
+};
+export default SearchBox;
