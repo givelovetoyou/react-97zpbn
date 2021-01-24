@@ -1,4 +1,4 @@
-[
+const Word3 = [
   {
     word: "capital",
     translate: "ทุน"
@@ -28,3 +28,4 @@
     translate: "ทุนสะสมหรือกองทุนทั่วไป"
   }
 ];
+export default Word3;

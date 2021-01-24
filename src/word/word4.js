@@ -1,4 +1,4 @@
-[
+const Word4 = [
   {
     word: "revenue",
     translate: "รายได้"
@@ -104,3 +104,4 @@
     translate: "เงินรับจากการบริจาค"
   }
 ];
+export default Word4;

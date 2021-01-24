@@ -1,4 +1,4 @@
-[
+const Word5 = [
   {
     "word": "expense",
     "translate": "ค่าใช้จ่าย"
@@ -171,4 +171,5 @@
     "word": "",
     "translate": "ค่าโทรศัพท์และค่าโทรสาร"
   }
-]
+];
+export default Word5 ;

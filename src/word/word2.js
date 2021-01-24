@@ -1,4 +1,4 @@
-[
+const Word2 = [
   {
     word: "account payable",
     translate: "เจ้าหนี้การค้า"
@@ -84,3 +84,4 @@
     translate: "หนี้สินหมุนเวียน"
   }
 ];
+export default Word2;

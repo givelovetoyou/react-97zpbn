@@ -1,4 +1,4 @@
-const WordSig = [
+const Word6 = [
   {
     no: 1,
     word: "Cash flow",
@@ -1131,4 +1131,4 @@ const WordSig = [
   }
 ];
 
-export default WordSig;
+export default Word6;
